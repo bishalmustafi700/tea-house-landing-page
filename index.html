@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <script src="https://kit.fontawesome.com/bc5ce4f054.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+
+              fontFamily: {
+                Montserrat: ['Montserrat', 'sans-serif'],
+              },
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-Montserrat">
+    <main class="max-w-screen-xl mx-auto px-5">
+
+      <!-- header banner -->
+
+      <section class="flex flex-col items-center gap-8 justify-between md:flex-row mt-5">
+        <div class="w-10/12 md:w-3/5">
+          <h1 class="font-semibold text-5xl md:text-6xl">It's good <br>
+            tea time at The <br> Tea House</h1>
+            <p class="text-xl text-gray-500 mt-4 mb-3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <a href="" target="_blank"><button class="text-xl font-semi-bold bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-lg">Explore More <i class="fa-solid fa-arrow-right text-white ml-5"></i></button></a>
+        </div>
+
+          <div class="w-10/12 md:w-3/5 relative">
+                <img class="w-full" src="./images/banner.png" alt="">
+                <div class="flex items-center gap-2 md:gap-5 px-2 py-1 md:px-5 md:py-3 bg-white shadow-lg rounded-lg absolute bottom-2 left-15 md:bottom-5 md:left-20">
+                    <div>
+                      <i class="fa-solid fa-star text-2xl md:text-4xl text-orange-400 "></i>
+                    </div>
+                    <div>
+                      <h1 class="text-xl md:text-2xl font-bold">5.00</h1>
+                      <p class="text-gray-500 text-xs">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+          </div>
+      </section>
+
+      <!-- Our Featured Products -->
+
+      <section>
+
+        <div class="text-center w-11/12 md:w-4/5 mx-auto mt-12">
+          <h1 class="font-bold text-5xl">Our Featured Products</h1>
+          <p class="text-gray-500 mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+
+          <div class="my-10 grid grid-row-1 gap-7 md:grid-cols-2 lg:grid-cols-4">
+
+            <div class="flex flex-col text-center justify-center px-5 py-10 bg-gradient-to-t from-gray-100           to-gray-200 rounded-xl shadow-xl">
+            <img class="w-1/2 mx-auto" src="./images/tea-1.png" alt="">
+            <h1 class=" text-3xl font-bold mt-4 mb-2">Lemon Tea</h1>
+            <p class="text-sm text-gray-800">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="flex flex-col text-center justify-center px-5 py-10 bg-gradient-to-t from-gray-100           to-gray-200 rounded-xl shadow-xl">
+            <img class="w-1/2 mx-auto" src="./images/tea-2.png" alt="">
+            <h1 class=" text-3xl font-bold mt-4 mb-2">Milk Tea</h1>
+            <p class="text-sm text-gray-800">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="flex flex-col text-center justify-center px-5 py-10 bg-gradient-to-t from-gray-100           to-gray-200 rounded-xl shadow-xl">
+            <img class="w-1/2 mx-auto" src="./images/tea-3.png" alt="">
+            <h1 class=" text-3xl font-bold mt-4 mb-2">Chocolate Tea</h1>
+            <p class="text-sm text-gray-800">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="flex flex-col text-center justify-center px-5 py-10 bg-gradient-to-t from-gray-100           to-gray-200 rounded-xl shadow-xl">
+            <img class="w-1/2 mx-auto" src="./images/tea-4.png" alt="">
+            <h1 class=" text-3xl font-bold mt-4 mb-2">Black Tea</h1>
+            <p class="text-sm text-gray-800">Creamer could be replaced by fresh milk</p>
+           </div>
+        </div>
+      </section>
+      
+      <!-- News & Events -->
+
+      <section>
+
+        <div class="text-center w-11/12 md:w-4/5 mx-auto mt-12">
+            <h1 class="font-bold text-5xl">News & Events</h1>
+            <p class="text-gray-500 my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+
+        <div class="flex items-center justify-between flex-col gap-7 md:flex-row">
+          <div class="w-10/12 md:w-4/12 bg-white border-2 border-gray-200 rounded-xl shadow-xl p-5 ">
+            <img class="w-full" src="./images/news-1.png" alt="">
+            <p class="mt-3 text-gray-400 font-normal text-xs">Feb 05, 2027</p>
+            <h1 class="font-semibold text-2xl mt-3">Collecting 8 points <br> for discount</h1>
+            <p class="text-gray-400 text-lg my-3">There are many variations of passages of Lorem Ipsum available.</p>
+            <a class="text-orange-400 font-bold" href="">Learn More</a>
+          </div>
+          <div class="w-10/12 md:w-4/12 bg-white border-2 border-gray-200 rounded-xl shadow-xl p-5 ">
+            <img class="w-full" src="./images/news-2.png" alt="">
+            <p class="mt-3 text-gray-400 font-normal text-xs">Feb 05, 2027</p>
+            <h1 class="font-semibold text-2xl mt-3">Collecting 8 points <br> for discount</h1>
+            <p class="text-gray-400 text-lg my-3">There are many variations of passages of Lorem Ipsum available.</p>
+            <a class="text-orange-400 font-bold" href="">Learn More</a>
+          </div>
+          <div class="w-10/12 md:w-4/12 bg-white border-2 border-gray-200 rounded-xl shadow-xl p-5 ">
+            <img class="w-full" src="./images/news-3.png" alt="">
+            <p class="mt-3 text-gray-400 font-normal text-xs">Feb 05, 2027</p>
+            <h1 class="font-semibold text-2xl mt-3">Collecting 8 points <br> for discount</h1>
+            <p class="text-gray-400 text-lg my-3">There are many variations of passages of Lorem Ipsum available.</p>
+            <a class="text-orange-400 font-bold" href="">Learn More</a>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <footer>
+
+    </footer>   
+</body>
+</html>
